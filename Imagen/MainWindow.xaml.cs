@@ -27,7 +27,7 @@ namespace Imagen
 
         private void AltaOpacidad_Checked(object sender, RoutedEventArgs e)
         {
-            ImagenStarWars.Opacity = 1; //Error Null
+            ImagenStarWars.Opacity = 1; //Error Null "System.NullReferenceException"
         }
 
         private void Relleno_AjusteChecked(object sender, RoutedEventArgs e)
