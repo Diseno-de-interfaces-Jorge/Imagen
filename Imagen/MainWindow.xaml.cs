@@ -23,42 +23,42 @@ namespace Imagen
         public MainWindow()
         {
             InitializeComponent();
-            AltaOpacidad.IsChecked = true;
-            RellenoAjuste.IsChecked = true;
+            AltaOpacidadRadioButton.IsChecked = true;
+            RellenoAjusteRadioButton.IsChecked = true;
         }
 
-        private void AltaOpacidad_Checked(object sender, RoutedEventArgs e)
+        private void AltaOpacidadRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Opacity = 1;
         }
 
-        private void MediaOpacidad_Checked(object sender, RoutedEventArgs e)
+        private void MediaOpacidadRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Opacity = 0.6;
         }
 
 
-        private void BajaOpacidad_Checked(object sender, RoutedEventArgs e)
+        private void BajaOpacidadRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Opacity = 0.3;
         }
 
-        private void Relleno_AjusteChecked(object sender, RoutedEventArgs e)
+        private void RellenoRadioButton_AjusteChecked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Stretch = Stretch.Fill;
         }
 
-        private void UniformeAjuste_Checked(object sender, RoutedEventArgs e)
+        private void UniformeAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Stretch = Stretch.Uniform;
         }
 
-        private void RellenoUniformeAjuste_Checked(object sender, RoutedEventArgs e)
+        private void RellenoUniformeAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Stretch = Stretch.UniformToFill;
         }
 
-        private void SinAjuste_Checked(object sender, RoutedEventArgs e)
+        private void SinAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             StarWarsImage.Stretch = Stretch.None;
 

@@ -18,58 +18,58 @@
                    Text="Opacidad:"
                    VerticalAlignment="Top"
                    FontWeight="Bold" />
-        <RadioButton x:Name="AltaOpacidad"
+        <RadioButton x:Name="AltaOpacidadRadioButton"
                      GroupName="Opacidad"
                      Content="Alta"
                      HorizontalAlignment="Left"
                      Margin="445,97,0,0"
                      VerticalAlignment="Top"
-                     Checked="AltaOpacidad_Checked"
+                     Checked="AltaOpacidadRadioButton_Checked"
                      />
-        <RadioButton x:Name="MediaOpacidad"
+        <RadioButton x:Name="MediaOpacidadRadioButton"
                      GroupName="Opacidad"
                      Content="Media"
                      HorizontalAlignment="Left"
                      Margin="445,131,0,0"
-                     VerticalAlignment="Top" Checked="MediaOpacidad_Checked" />
-        <RadioButton x:Name="BajaOpacidad"
+                     VerticalAlignment="Top" Checked="MediaOpacidadRadioButton_Checked" />
+        <RadioButton x:Name="BajaOpacidadRadioButton"
                      GroupName="Opacidad"
                      Content="Baja"
                      HorizontalAlignment="Left"
                      Margin="445,162,0,0"
-                     VerticalAlignment="Top" Checked="BajaOpacidad_Checked" />
+                     VerticalAlignment="Top" Checked="BajaOpacidadRadioButton_Checked" />
         <TextBlock HorizontalAlignment="Left"
                    Margin="471,213,0,0"
                    TextWrapping="Wrap"
                    Text="Ajustes"
                    VerticalAlignment="Top"
                    FontWeight="Bold" />
-        <RadioButton x:Name="RellenoAjuste"
+        <RadioButton x:Name="RellenoAjusteRadioButton"
                      GroupName="Ajuste"
                      Content="Relleno (Fill)"
                      HorizontalAlignment="Left"
                      Margin="445,242,0,0"
                      VerticalAlignment="Top"
-                     Checked="Relleno_AjusteChecked"
+                     Checked="RellenoRadioButton_AjusteChecked"
                       />
-        <RadioButton x:Name="UniformeAjuste"
+        <RadioButton x:Name="UniformeAjusteRadioButton"
                      GroupName="Ajuste"
                      Content="Uniforme (Uniform)"
                      HorizontalAlignment="Left"
                      Margin="445,269,0,0"
-                     VerticalAlignment="Top" Checked="UniformeAjuste_Checked" />
-        <RadioButton x:Name="RellenoUniformeAjuste"
+                     VerticalAlignment="Top" Checked="UniformeAjusteRadioButton_Checked" />
+        <RadioButton x:Name="RellenoUniformeAjusteRadioButton"
                      GroupName="Ajuste"
                      Content="Relleno Uniforme (UniformToFill)"
                      HorizontalAlignment="Left"
                      Margin="445,300,0,0"
-                     VerticalAlignment="Top" Checked="RellenoUniformeAjuste_Checked" />
-        <RadioButton x:Name="SinAjuste"
+                     VerticalAlignment="Top" Checked="RellenoUniformeAjusteRadioButton_Checked" />
+        <RadioButton x:Name="SinAjusteRadioButton"
                      GroupName="Ajuste"
                      Content="Sin ajuste (None)"
                      HorizontalAlignment="Left"
                      Margin="445,331,0,0"
-                     VerticalAlignment="Top" Checked="SinAjuste_Checked" />
+                     VerticalAlignment="Top" Checked="SinAjusteRadioButton_Checked" />
 
         <Image x:Name="StarWarsImage"
                HorizontalAlignment="Left"
