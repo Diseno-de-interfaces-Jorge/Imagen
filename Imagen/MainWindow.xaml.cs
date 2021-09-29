@@ -23,18 +23,46 @@ namespace Imagen
         public MainWindow()
         {
             InitializeComponent();
+            AltaOpacidad.IsChecked = true;
+            RellenoAjuste.IsChecked = true;
         }
 
         private void AltaOpacidad_Checked(object sender, RoutedEventArgs e)
         {
-            ImagenStarWars.Opacity = 1; //Error Null "System.NullReferenceException"
+            StarWarsImage.Opacity = 1;
+        }
+
+        private void MediaOpacidad_Checked(object sender, RoutedEventArgs e)
+        {
+            StarWarsImage.Opacity = 0.6;
+        }
+
+
+        private void BajaOpacidad_Checked(object sender, RoutedEventArgs e)
+        {
+            StarWarsImage.Opacity = 0.3;
         }
 
         private void Relleno_AjusteChecked(object sender, RoutedEventArgs e)
         {
-            ImagenStarWars.Stretch = Stretch.Fill;
+            StarWarsImage.Stretch = Stretch.Fill;
         }
 
+        private void UniformeAjuste_Checked(object sender, RoutedEventArgs e)
+        {
+            StarWarsImage.Stretch = Stretch.Uniform;
+        }
+
+        private void RellenoUniformeAjuste_Checked(object sender, RoutedEventArgs e)
+        {
+            StarWarsImage.Stretch = Stretch.UniformToFill;
+        }
+
+        private void SinAjuste_Checked(object sender, RoutedEventArgs e)
+        {
+            StarWarsImage.Stretch = Stretch.None;
+
+        }
     }
     
 }
